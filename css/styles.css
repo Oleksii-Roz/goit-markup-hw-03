@@ -52,11 +52,13 @@ body {
 	color: var(--first-text-color);
 }
 
-/* .container {
+.container {
 	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-}  <div class="container"></div>  центрируем контейнер слева и права по отношению к размеру экрана*/
+	/* margin-left: auto;
+	margin-right: auto; */
+	margin: 0 auto;
+}
+<div class="container"></div>  центрируем контейнер слева и права по отношению к размеру экрана
 
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
 .header-bg {
