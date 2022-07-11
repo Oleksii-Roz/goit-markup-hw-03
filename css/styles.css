@@ -1,0 +1,257 @@
+:root {
+	--first-text-color: #212121;
+	--second-text-color: #757575;
+	--my-white: #ffffff;
+	--accent-color: #2196f3;
+	--background-dark-color: #2f303a;
+	--main-bg: #f5f4fa;
+	--logo-second-part: #000000;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	background-color: var(--my-white);
+	color: var(--first-text-color);
+}
+
+/* ==========COMPONENTS========== */
+.header-nav-link.current {
+	color: var(--accent-color);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.67;
+	text-align: center;
+	color: var(--first-text-color);
+}
+
+/* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
+.header-bg {
+	background: var(--my-white);
+}
+
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-color);
+}
+
+.logo-header {
+	color: var(--logo-second-part);
+}
+
+.logo-footer {
+	color: var(--my-white);
+}
+
+.header-nav-link {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--first-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link:active {
+	color: var(--accent-color);
+}
+
+.header-link {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--second-text-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+	color: var(--accent-color);
+}
+
+/* ==========Main index.html========== */
+/* ==========Hero. Баннер, кнопка index.html========== */
+.hero {
+	background-color: var(--background-dark-color);
+}
+
+.hero-text {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--my-white);
+}
+
+.hero-btn {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	/* display: flex; */
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: var(--my-white);
+	background: var(--accent-color);
+	cursor: pointer;
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+	/* border-radius: 4px; */
+	/* border: none; */
+}
+
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+	background: #188ce8;
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+	/* border-radius: 4px; */
+	/* border: none; */
+}
+
+/* ==========Наши основные особенности index.html========== */
+.main-basic-first {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--first-text-color);
+}
+
+.main-basic-second {
+	line-height: 1.71;
+	color: var(--second-text-color);
+}
+
+/* ==========Чем мы занимаемся index.html========== */
+/* ==========Наша команд index.html========== */
+.main-team-bg {
+	background: var(--main-bg);
+}
+
+.main-team-first {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	color: var(--first-text-color);
+}
+
+.main-team-second {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	color: var(--second-text-color);
+}
+
+/* ==========Footer Подвал (адрес, почта, телефон) index.html==========  */
+
+.footer-bg {
+	background: var(--background-dark-color);
+}
+
+.footer-link-address {
+	font-style: normal;
+	line-height: 1.71;
+	color: var(--my-white);
+}
+
+.footer-link {
+	font-style: normal;
+	line-height: 1.71;
+	/* or 171% */
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-address:hover,
+.footer-link-address:focus,
+.footer-link-address:active,
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
+	color: var(--accent-color);
+}
+
+/* ==========Main portfolio.html========== */
+/* ==========Фильтры на странице========== */
+.main-filters-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--first-text-color);
+	background: var(--main-bg);
+	cursor: pointer;
+	/* border-radius: 4px;
+	border: none; */
+}
+
+.main-filters-btn:hover,
+.main-filters-btn:focus,
+.main-filters-btn:active {
+	color: var(--my-white);
+	background-color: var(--accent-color);
+	/* border: none; */
+}
+
+.main-all-services-text-first {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--first-text-color);
+}
+
+.main-all-services-text-second {
+	font-size: 16px;
+	line-height: 1.88;
+	color: var(--second-text-color);
+}
+
+/* В ДЗ№2 не должны быть (скрыл их значение):
+display:
+box-shadow: 
+border-radius:
+border: 
+opacity: 0;  - вообще убрал его использование, заменил на селектор .visually-hidden */
+/* opacity: 0; - с значением 0 для скрытия отображения текста (h1.....h6, p) на странице, читалки при этом его видят и читают */
+
+/* line-height: 26px; - так не правильно нужно только в множителе давать значения. 
+Например, если в макете размер шрифта 16px а интерлиньяж 24px, просто делим 24 на 16 и получаем множитель 1.5. Использование множителя гарантирует равномерное масштабирование межстрочного интервала при изменении размера текста.
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+} */
