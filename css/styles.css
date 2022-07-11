@@ -1,13 +1,3 @@
-html {
-	box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
 :root {
 	--first-text-color: #212121;
 	--second-text-color: #757575;
