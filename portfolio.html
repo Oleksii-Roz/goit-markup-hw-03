@@ -25,17 +25,17 @@
 		<!-- header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel)-->
 		<header class="header-bg">
 			<!-- главный блок навигации, начало-->
-			<div class="container">
-				<nav>
+			<div class="container flex">
+				<nav class="flex">
 					<a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
-					<ul class="list">
-						<li><a class="header-nav-link link" href="./index.html">Студия</a></li>
-						<li><a class="header-nav-link link current" href="./portfolio.html">Портфолио</a></li>
+					<ul class="list flex">
+						<li><a class="header-nav-link current link" href="./index.html">Студия</a></li>
+						<li><a class="header-nav-link link" href="./portfolio.html">Портфолио</a></li>
 						<li><a class="header-nav-link link" href="#">Контакты</a></li>
 					</ul>
 				</nav>
 				<!--главный блок навигации, окончание-->
-				<ul class="list">
+				<ul class="list flex">
 					<li>
 						<a class="header-link link" href="mailto:info@info@devstudio.com">info@devstudio.com</a>
 					</li>
@@ -48,9 +48,9 @@
 		<!--Основное, тело, main-->
 		<main>
 			<!--Фильтры на странице-->
-			<section class="container">
+			<section>
 				<h1 class="visually-hidden"> Портфолио всех видов работ</h1>
-				<ul class="list">
+				<ul class="list container flex">
 					<li>
 						<button class="main-filters-btn" type="button">Все</button>
 					</li>
@@ -69,7 +69,7 @@
 				</ul>
 
 				<!-- ul>li*9>a:blank если линк на внешний сайт или ul>li*9>a если линк на внутренний сайт -->
-				<ul class="list">
+				<ul class="list container">
 					<li>
 						<img src="./images/portfolio/project1.jpg" alt="ноутбук с фото" width="370" height="294" />
 						<h2 class="main-all-services-text-first">Технокряк</h2>

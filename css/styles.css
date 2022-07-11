@@ -59,6 +59,10 @@ body {
 	margin: 0 auto;
 }
 
+.flex {
+	display: flex;
+}
+
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
 .header-bg {
 	background: var(--my-white);
