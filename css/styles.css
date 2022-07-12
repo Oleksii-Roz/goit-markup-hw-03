@@ -8,12 +8,33 @@
 	--logo-second-part: #000000;
 }
 
+/* Убираем внутренние отступы */
+/* ul[class],
+ol[class] {
+	padding: 0;
+} */
+
+/* Убираем внешние и внутренние отступы */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: Roboto, sans-serif;
 	font-size: 14px;
 	letter-spacing: 0.03em;
 	background-color: var(--my-white);
 	color: var(--first-text-color);
+
+	margin: 0;
 }
 
 /* ==========COMPONENTS========== */
