@@ -230,6 +230,16 @@ body {
 
 .footer-bg {
 	background: var(--background-dark-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+address {
+	margin-top: 20px;
+}
+
+address li {
+	margin-bottom: 9px;
 }
 
 .footer-link-address {
