@@ -165,6 +165,7 @@ body {
 	background-color: var(--background-dark-color);
 	padding-top: 205px;
 	padding-bottom: 195px;
+	text-align: center;
 }
 
 .hero-text {
@@ -177,7 +178,7 @@ body {
 	color: var(--my-white);
 	width: 696px;
 	margin: 0 auto;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -195,7 +196,7 @@ body {
 
 	display: flex;
 	margin: 0 auto;
-	/* margin-bottom: 200px; */
+	/* margin-bottom: 195px; */
 
 	align-items: center;
 	text-align: center;
