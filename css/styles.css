@@ -175,6 +175,7 @@ body {
 	padding-top: 205px;
 	padding-bottom: 195px;
 	text-align: center;
+	margin-bottom: 99px;
 }
 
 .hero-text {
@@ -229,12 +230,14 @@ body {
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--first-text-color);
+	margin-bottom: 10px;
 }
 
 .main-basic-second {
 	width: 270px;
 	line-height: 1.71;
 	color: var(--second-text-color);
+	margin-bottom: 94px;
 }
 
 /* ==========Чем мы занимаемся index.html========== */
