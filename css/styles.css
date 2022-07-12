@@ -172,7 +172,7 @@ body {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	text-align: center;
+	/* text-align: center; */
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--my-white);
@@ -199,7 +199,7 @@ body {
 	/* margin-bottom: 195px; */
 
 	align-items: center;
-	text-align: center;
+	/* text-align: center; */
 	padding: 10px 32px;
 	border-radius: 4px;
 	border: none;
