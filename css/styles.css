@@ -241,9 +241,16 @@ body {
 }
 
 /* ==========Чем мы занимаемся index.html========== */
+
+.main-margin {
+	margin-bottom: 50px;
+}
+
 /* ==========Наша команд index.html========== */
 .main-team-bg {
 	background: var(--main-bg);
+	padding: 94px 0;
+	margin-top: 94px;
 }
 
 .main-team-first {
@@ -259,6 +266,18 @@ body {
 	line-height: 1.19;
 	text-align: center;
 	color: var(--second-text-color);
+}
+
+h3[class="main-team-first"] {
+	margin-top: 30px;
+}
+
+p[class="main-team-second"] {
+	margin-top: 10px;
+}
+
+li[class="mail-team-margin"] {
+	margin-top: 50px;
 }
 
 /* ==========Footer Подвал (адрес, почта, телефон) index.html==========  */
