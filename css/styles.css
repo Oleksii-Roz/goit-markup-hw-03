@@ -93,6 +93,7 @@ body {
 	padding-right: 0px;
 	margin: 0 auto;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .header-nav-link {
@@ -109,13 +110,13 @@ body {
 }
 
 .header-link-container {
-	/* display: flex */
 	width: 638px;
 	padding-left: 331px;
 	padding-right: 0px;
 	/* margin: 0 auto; */
 	margin: 0;
 	align-items: center;
+	justify-content: space-between;
 }
 
 /* .header-nav-link-container {
