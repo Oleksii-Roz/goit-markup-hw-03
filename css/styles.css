@@ -276,7 +276,7 @@ p[class="main-team-second"] {
 	margin-top: 10px;
 }
 
-li[class="mail-team-margin"] {
+.mail-team-margin {
 	margin-top: 50px;
 }
 
@@ -325,8 +325,11 @@ address li {
 	margin: 0 auto;
 	align-items: center;
 	justify-content: space-between;
+	margin-top: 94px;
+	margin-bottom: 34px;
 }
 /* ==========Фильтры на странице portfolio.html========== */
+
 .main-filters-btn {
 	font-family: inherit;
 	font-weight: 500;
@@ -369,17 +372,14 @@ address li {
 	width: 370px;
 }
 
-/* В ДЗ№2 не должны быть (скрыл их значение):
-display:
-box-shadow: 
-border-radius:
-border: 
-opacity: 0;  - вообще убрал его использование, заменил на селектор .visually-hidden */
-/* opacity: 0; - с значением 0 для скрытия отображения текста (h1.....h6, p) на странице, читалки при этом его видят и читают */
+h2[class="main-all-services-text-first"] {
+	margin-top: 20px;
+}
 
-/* line-height: 26px; - так не правильно нужно только в множителе давать значения. 
-Например, если в макете размер шрифта 16px а интерлиньяж 24px, просто делим 24 на 16 и получаем множитель 1.5. Использование множителя гарантирует равномерное масштабирование межстрочного интервала при изменении размера текста.
-.text {
-  font-size: 16px;
-  line-height: 1.5;
-} */
+p[class="main-all-services-text-second"] {
+	margin-top: 4px;
+}
+
+.main-all-services-margin {
+	margin-top: 30px;
+}
