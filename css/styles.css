@@ -155,10 +155,8 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--my-white);
-
 	width: 696px;
 	margin: 0 auto;
-	/* padding-top: 205px; */
 	padding-bottom: 30px;
 }
 
