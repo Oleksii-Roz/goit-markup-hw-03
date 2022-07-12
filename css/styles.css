@@ -113,7 +113,6 @@ body {
 	width: 638px;
 	padding-left: 331px;
 	padding-right: 0px;
-	/* margin: 0 auto; */
 	margin: 0;
 	align-items: center;
 	justify-content: space-between;
@@ -192,6 +191,7 @@ body {
 }
 
 /* ==========Наши основные особенности index.html========== */
+
 .main-basic-first {
 	font-weight: 700;
 	font-size: 14px;
