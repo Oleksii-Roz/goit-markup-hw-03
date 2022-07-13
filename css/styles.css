@@ -93,6 +93,10 @@ body {
 	display: flex;
 }
 
+img.no-gap {
+	display: block;
+}
+
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
 .header-bg {
 	background: var(--my-white);
