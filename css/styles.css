@@ -253,6 +253,10 @@ body {
 }
 
 /* ==========Чем мы занимаемся index.html========== */
+.section.main-we-doing {
+	padding-top: 0;
+}
+
 .list.marging-bottom {
 	margin-bottom: 50px;
 }
@@ -409,4 +413,5 @@ body {
 	background: var(--my-white);
 	border: 1px solid #eeeeee;
 	padding: 20px 24px;
+	border-top: none;
 }
