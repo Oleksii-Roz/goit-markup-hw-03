@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Студия</title>
-
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -23,19 +22,19 @@
 
 	<body>
 		<!-- header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel)-->
-		<header class="header-bg">
+		<header class="header-bg section">
 			<!-- главный блок навигации, начало-->
-			<div class="container flex">
-				<nav class="flex">
+			<div class="container">
+				<nav>
 					<a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
-					<ul class="header-nav-link-container list flex">
+					<ul class="list">
 						<li><a class="header-nav-link current link" href="./index.html">Студия</a></li>
 						<li><a class="header-nav-link link" href="./portfolio.html">Портфолио</a></li>
 						<li><a class="header-nav-link link" href="#">Контакты</a></li>
 					</ul>
 				</nav>
 				<!--главный блок навигации, окончание-->
-				<ul class="header-link-container list flex">
+				<ul class="list">
 					<li>
 						<a class="header-link link" href="mailto:info@info@devstudio.com">info@devstudio.com</a>
 					</li>
@@ -48,132 +47,136 @@
 		<!--Основное, тело, main-->
 		<main>
 			<!--Hero. Баннер, кнопка-->
-			<section class="hero">
+			<section class="hero section">
 				<div class="container">
-					<h1 class="hero-text"> Эффективные решения для вашего бизнеса </h1>
-					<button class="hero-btn" type="button">Заказать услугу </button>
+					<h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+					<button class="hero-btn" type="button">Заказать услугу</button>
 				</div>
 			</section>
 			<!--Наши основные особенности-->
-			<section>
-				<h2 class="visually-hidden">Наши основные особенности</h2>
+			<section class="section">
+				<div class="container">
+					<h2 class="visually-hidden">Наши основные особенности</h2>
 
-				<ul class="list main-container flex">
-					<li>
-						<h3 class="main-basic-first">Внимание к деталям</h3>
-						<p class="main-basic-second"
-							>Идейные соображения, а также начало повседневной работы по формированию позиции.</p
-						>
-					</li>
+					<ul class="list main-item-flex">
+						<li class="main-team-flex-basis">
+							<h3 class="main-basic-first marging-bottom">Внимание к деталям</h3>
+							<p class="main-basic-second"
+								>Идейные соображения, а также начало повседневной работы по формированию позиции.</p
+							>
+						</li>
 
-					<li>
-						<h3 class="main-basic-first">Пунктуальность</h3>
-						<p class="main-basic-second">
-							Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-						</p>
-					</li>
+						<li class="main-team-flex-basis">
+							<h3 class="main-basic-first marging-bottom">Пунктуальность</h3>
+							<p class="main-basic-second">
+								Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+							</p>
+						</li>
 
-					<li>
-						<h3 class="main-basic-first">Планирование</h3>
-						<p class="main-basic-second">
-							Равным образом консультация с широким активом в значительной степени обуславливает.
-						</p>
-					</li>
+						<li class="main-team-flex-basis">
+							<h3 class="main-basic-first marging-bottom">Планирование</h3>
+							<p class="main-basic-second">
+								Равным образом консультация с широким активом в значительной степени обуславливает.
+							</p>
+						</li>
 
-					<li>
-						<h3 class="main-basic-first">Современные технологии</h3>
-						<p class="main-basic-second"
-							>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p
-						>
-					</li>
-				</ul>
+						<li class="main-team-flex-basis">
+							<h3 class="main-basic-first marging-bottom">Современные технологии</h3>
+							<p class="main-basic-second"
+								>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p
+							>
+						</li>
+					</ul>
+				</div>
 			</section>
 			<!--Чем мы занимаемся-->
-			<section>
-				<h2 class="title main-margin">Чем мы занимаемся</h2>
-				<ul class="list main-container flex">
-					<li>
-						<img
-							class="no-gap"
-							src="./images/we-are-doing/img1.jpg"
-							alt="планшет и клавиатура"
-							width="370"
-							height="294"
-						/>
-					</li>
+			<section class="section">
+				<div class="container">
+					<h2 class="title marging-bottom">Чем мы занимаемся</h2>
+					<ul class="list main-item-flex">
+						<li class="main-item-all-services">
+							<img src="./images/we-are-doing/img1.jpg" alt="планшет и клавиатура" />
+						</li>
 
-					<li>
-						<img
-							class="no-gap"
-							src="./images/we-are-doing/img2.jpg"
-							alt="ноутбук и телефон в руках"
-							width="370"
-							height="294"
-						/>
-					</li>
+						<li class="main-item-all-services">
+							<img src="./images/we-are-doing/img2.jpg" alt="ноутбук и телефон в руках" />
+						</li>
 
-					<li>
-						<img class="no-gap" src="./images/we-are-doing/img3.jpg" alt="планшет в руке" width="370" height="294" />
-					</li>
-				</ul>
+						<li class="main-item-all-services">
+							<img src="./images/we-are-doing/img3.jpg" alt="планшет в руке" />
+						</li>
+					</ul>
+				</div>
 			</section>
 			<!--Наша команда-->
-			<section class="main-team-bg">
-				<h2 class="title">Наша команда</h2>
-				<ul class="list main-container flex">
-					<li class="mail-team-margin">
-						<img class="no-gap" src="./images/our-team/igordem.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-						<h3 class="main-team-first">Игорь Демьяненко</h3>
-						<p class="main-team-second">Product Designer</p>
-					</li>
+			<section class="main-team-bg section">
+				<div class="container">
+					<h2 class="title marging-bottom">Наша команда</h2>
+					<ul class="list main-item-flex">
+						<li class="main-team-flex-basis">
+							<img src="./images/our-team/igordem.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+							<div class="main-team-item">
+								<h3 class="main-team-first marging-bottom">Игорь Демьяненко</h3>
+								<p class="main-team-second marging-bottom">Product Designer</p>
+							</div>
+						</li>
 
-					<li class="mail-team-margin">
-						<img class="no-gap" src="./images/our-team/olyarep.jpg" alt="Ольга Репина" width="270" height="260" />
-						<h3 class="main-team-first">Ольга Репина</h3>
-						<p class="main-team-second">Frontend Developer</p>
-					</li>
+						<li class="main-team-flex-basis">
+							<img src="./images/our-team/olyarep.jpg" alt="Ольга Репина" width="270" height="260" />
+							<div class="main-team-item">
+								<h3 class="main-team-first marging-bottom">Ольга Репина</h3>
+								<p class="main-team-second marging-bottom">Frontend Developer</p>
+							</div>
+						</li>
 
-					<li class="mail-team-margin">
-						<img class="no-gap" src="./images/our-team/nikolaytar.jpg" alt="Николай Тарасов" width="270" height="260" />
-						<h3 class="main-team-first">Николай Тарасов</h3>
-						<p class="main-team-second">Marketing</p>
-					</li>
+						<li class="main-team-flex-basis">
+							<img src="./images/our-team/nikolaytar.jpg" alt="Николай Тарасов" width="270" height="260" />
+							<div class="main-team-item">
+								<h3 class="main-team-first marging-bottom">Николай Тарасов</h3>
+								<p class="main-team-second marging-bottom">Marketing</p>
+							</div>
+						</li>
 
-					<li class="mail-team-margin">
-						<img class="no-gap" src="./images/our-team/myhaylearm.jpg" alt="Михаил Ермаков" width="270" height="260" />
-						<h3 class="main-team-first">Михаил Ермаков</h3>
-						<p class="main-team-second">UI Designer</p>
-					</li>
-				</ul>
+						<li class="main-team-flex-basis">
+							<img src="./images/our-team/myhaylearm.jpg" alt="Михаил Ермаков" width="270" height="260" />
+							<div class="main-team-item">
+								<h3 class="main-team-first marging-bottom">Михаил Ермаков</h3>
+								<p class="main-team-second marging-bottom">UI Designer</p>
+							</div>
+						</li>
+					</ul>
+				</div>
 			</section>
 		</main>
 		<!-- Подвал footer (адрес, почта, телефон)-->
-		<footer class="footer-bg">
+		<footer class="footer-bg section">
 			<div class="container">
-				<a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+				<a class="logo link logo-footer-link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+				<address>
+					<ul class="list">
+						<li class="logo-item">
+							<a
+								class="footer-link-address link footer-margin-link"
+								href="https://goo.gl/maps/Uxr8CPiGGKussVzf7"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								г. Киев, пр-т Леси Украинки, 26
+							</a>
+						</li>
+
+						<li class="logo-item">
+							<a class="footer-link link footer-margin-link" href="mailto:info@info@devstudio.com"
+								>info@devstudio.com</a
+							>
+						</li>
+
+						<li class="logo-item">
+							<a class="footer-link link footer-margin-link" href="tel:+380961111111">+38 096 111 11 11</a>
+						</li>
+					</ul>
+				</address>
 			</div>
-			<address>
-				<ul class="list container">
-					<li>
-						<a
-							class="footer-link-address link"
-							href="https://goo.gl/maps/Uxr8CPiGGKussVzf7"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							г. Киев, пр-т Леси Украинки, 26
-						</a>
-					</li>
-
-					<li>
-						<a class="footer-link link" href="mailto:info@info@devstudio.com">info@devstudio.com</a>
-					</li>
-
-					<li>
-						<a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-					</li>
-				</ul>
-			</address>
 		</footer>
 	</body>
 </html>
