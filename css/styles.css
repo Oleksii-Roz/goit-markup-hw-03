@@ -104,6 +104,37 @@ body {
 	background: var(--my-white);
 	border-bottom: 1px solid #ececec;
 }
+
+.header-bg-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu-fist {
+	display: flex;
+	align-items: center;
+}
+.header-menu-second {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.header-email {
+	/* margin-left: auto; */
+	margin-right: 50px;
+}
+
+.header-menu-item:not(:last-child) {
+	margin-right: 50px;
+}
+
 .section.header-bg {
 	padding-top: 24px;
 	padding-bottom: 25px;
@@ -115,6 +146,7 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--accent-color);
+	margin-right: 93px;
 }
 
 .logo-header {
