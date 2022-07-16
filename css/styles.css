@@ -39,9 +39,6 @@ body {
 }
 
 /* ==========COMPONENTS========== */
-.header-nav-link.current {
-	color: var(--accent-color);
-}
 
 .visually-hidden {
 	position: absolute;
@@ -120,6 +117,11 @@ body {
 	display: flex;
 	align-items: center;
 }
+
+.header-nav-link.current {
+	color: var(--accent-color);
+}
+
 .header-menu-second {
 	display: flex;
 	align-items: center;
@@ -306,16 +308,30 @@ body {
 	padding-bottom: 60px;
 }
 
+.logo-footer-link {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-color);
+
+	background-color: tomato;
+}
+
 .footer-link-address {
 	font-style: normal;
 	line-height: 1.71;
 	color: var(--my-white);
+
+	background-color: tomato;
 }
 
 .footer-link {
 	font-style: normal;
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
+
+	background-color: tomato;
 }
 
 .footer-link-address:hover,
@@ -325,16 +341,6 @@ body {
 .footer-link:focus,
 .footer-link:active {
 	color: var(--accent-color);
-}
-
-.logo-footer-link {
-	display: flex;
-	margin-bottom: 20px;
-}
-
-.logo-item:nth-child(-n + 2) .footer-margin-link {
-	display: flex;
-	margin-bottom: 9px;
 }
 
 /* ==========Main portfolio.html========== */
