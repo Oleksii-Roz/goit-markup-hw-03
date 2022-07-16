@@ -216,6 +216,7 @@ body {
 	color: var(--my-white);
 	background: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 
 	display: flex;
 	margin: 0 auto;
@@ -224,7 +225,6 @@ body {
 	text-align: center;
 
 	padding: 10px 32px;
-	border-radius: 4px;
 	border: none;
 }
 
