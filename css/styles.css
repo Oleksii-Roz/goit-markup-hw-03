@@ -24,6 +24,8 @@ ol {
 /*Убираем нижний отступ*/
 img {
 	display: block;
+
+	max-width: 100%;
 }
 
 address {
@@ -100,12 +102,20 @@ body {
 	gap: 30px;
 }
 
-.main-item-all-services {
+.main-features-flex-basis {
+	flex-basis: calc((100% - 90px) / 4);
+}
+
+.main-we-doing-flex-basis {
 	flex-basis: calc((100% - 60px) / 3);
 }
 
 .main-team-flex-basis {
 	flex-basis: calc((100% - 90px) / 4);
+}
+
+.main-item-all-services {
+	flex-basis: calc((100% - 60px) / 3);
 }
 
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
