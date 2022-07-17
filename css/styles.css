@@ -128,7 +128,7 @@ body {
 	margin-left: auto;
 }
 
-.header-email {
+.header-address-item {
 	margin-right: 50px;
 }
 
@@ -300,23 +300,26 @@ body {
 
 .footer-bg {
 	background: var(--background-dark-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .logo-footer {
 	color: var(--my-white);
 }
 
-.section.footer-bg {
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
+/* Что бы включить флексы, нужны потом будут. В index.html и portfolio.html убрать примечание с <div class="container div-footer-flex"> В CSS убрать примечание с селектора .div-footer-flex А так же удалить строку display: block; в .a-footer-logo-link Так будет один в один как сейчас только на флексах.
+Жаль, а я заморочился м мучался с этим пару часов не меньше ночью))) */
 
-.div-footer-flex {
+/* .div-footer-flex {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: flex-start;
-}
+} */
+
+/* Что бы включить флексы, нужны потом будут. В index.html и portfolio.html убрать примечание с <div class="container div-footer-flex"> В CSS убрать примечание с селектора .div-footer-flex А так же удалить строку display: block; в .a-footer-logo-link Так будет один в один как сейчас только на флексах.
+Жаль, а я заморочился м мучался с этим пару часов не меньше ночью))) */
 
 .li-footer-item:not(:nth-child(3n)) {
 	margin-bottom: 9px;
@@ -328,6 +331,8 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--accent-color);
+
+	display: block;
 	margin-bottom: 20px;
 }
 
